@@ -1,0 +1,167 @@
+/*************************************/
+/*************** BODY ****************/
+body{
+	background-color: #F9F9F9;	
+}
+a, i{
+	color: #492f86;
+}
+a:hover{
+	color: #3b2471;
+}
+.button{
+	background: #492f86;
+	border: #492f86;
+}
+.button:hover{
+	background: #3b2471;
+	border: #3b2471;
+}
+.panel{
+	border: none;
+	background-color: #dedede;
+}
+h4{
+	color: #492f86;
+}
+dl.tabs dd.active {
+    border-top: 3px solid #492f86;
+}
+
+/*************************************/
+/*********** HEADER & NAV ************/
+.header{
+	border-bottom: 4px solid #3e307b;
+	background: black;
+}
+.logo{
+	text-align: center;
+}
+li.toggle-topbar{
+	background: #3e307b;
+	max-width: 60px;
+}
+.top-bar{
+	height: 50px;
+	background: transparent;
+}
+
+
+/*************************************/
+/************ BILLBOARD **************/
+#billboard{
+	height: 100%;
+	width: 100%;
+	background: #150a28;	
+	background-image: url("../images/bg.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+.dojo{
+	padding: 0;
+	margin-top: 20px;
+}
+.dojo h2{
+	text-align: center;
+}
+.dojo-msg{
+	margin-top: 100px;
+}
+.dojo-msg h5{
+	color: white; 
+	font-size: 3.8em;
+}
+
+
+
+
+
+
+/*************************************/
+/************** MESSAGE **************/
+#message{
+	width: 100%;
+	background: #9ea0bf;
+}
+#message h3{
+	color: #5d5e9b;
+	text-align: center;
+	text-shadow: 0px 2px 2px #c0badf;
+	padding: 23px 0;
+}
+
+
+/*************************************/
+/**************** MAIN ***************/
+#main{
+	background: #f8f8f8;
+	height: 100%;
+	width: 100%;
+	padding: 50px 0;
+}
+.section1 .row{
+	background: #F9F9F9;
+}
+.what-is{
+	margin-top: 40px;
+}
+.what p{
+	font-size: 1.2em;
+}
+
+.list li{
+	font-size: 1.2em;
+	list-style: none;
+	padding-bottom: 8px;
+}
+.list i{
+	font-size: 1.3em;
+}
+
+
+
+
+/*************************************/
+/**************** TEAM ***************/
+#team{
+	background: #eee;
+	padding: 50px 0;
+}
+.get-in-touch{
+	padding-top: 50px;
+}
+
+
+
+/*************************************/
+/************** FOOTER **************/
+#footer{
+	height: 100%;
+	width: 100%;
+	background: #191919;
+	color: #616089;
+	border-top: 8px solid #3e307b;
+	padding-top: 10px;
+	background-image: url("../images/pattern.png");
+}
+#footer ul{
+	list-style: none;
+}
+#footer a, #footer h6, #footer p, #footer i{
+	color: #a3a1c7;
+	font-size: 12px;
+}
+
+footer .signature, footer .signature a{
+	color: #616089;
+}
+#footer img{
+	margin-top: 20px;
+}
+footer, footer p{
+	background: black;
+	padding: 3px;
+	font-size: 12px;
+}
