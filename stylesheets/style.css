@@ -9,20 +9,27 @@ a, i{
 a:hover{
 	color: #3b2471;
 }
+ul{
+	list-style: none;
+}
 .button{
-	background: #492f86;
-	border: #492f86;
+	background: #81dee9;
+	border: #4a2f87;
+	width: 100%;
+	font-size: x-large;
+	margin-bottom: 8px;
 }
 .button:hover{
-	background: #3b2471;
+	background: #2dcdde;
 	border: #3b2471;
 }
 .panel{
 	border: none;
-	background-color: #dedede;
+	background-color: #ceedf1;
+	border-radius: 6px;
 }
 h4{
-	color: #492f86;
+	color: #00a7b8;
 }
 dl.tabs dd.active {
     border-top: 3px solid #492f86;
@@ -31,29 +38,36 @@ dl.tabs dd.active {
 /*************************************/
 /*********** HEADER & NAV ************/
 .header{
-	border-bottom: 4px solid #3e307b;
+	border-bottom: 4px solid #33d2d7;
 	background: black;
 }
 .logo{
 	text-align: center;
 }
 li.toggle-topbar{
-	background: #3e307b;
+	background: #004b5e;
 	max-width: 60px;
 }
 .top-bar{
-	height: 50px;
+	height: 100px;
 	background: transparent;
 }
 
+.top-bar ul > li.has-dropdown .dropdown li a:hover{
+	background: #00a7b8;
+	color: black;
+	transition: all 0.25s ease-in-out 0s;
+	-webkit-transition: all 0.25s ease-in-out 0s;
+	-moz-transition: all 0.25s ease-in-out 0s;
+}
 
 /*************************************/
 /************ BILLBOARD **************/
 #billboard{
 	height: 100%;
 	width: 100%;
-	background: #150a28;	
-	background-image: url("../images/bg.jpg");
+	background: #00a7b8;	
+	background-image: url("../images/bg1.png");
 	background-position: top center;
 	background-repeat: no-repeat;
 	padding-top: 10px;
@@ -67,14 +81,13 @@ li.toggle-topbar{
 	text-align: center;
 }
 .dojo-msg{
-	margin-top: 100px;
+	margin-top: 50px;
+	margin-bottom: 80px;
 }
 .dojo-msg h5{
-	color: white; 
-	font-size: 4em;
+	color: #005e89; 
+	font-size: 3.5em;
 }
-
-
 
 
 
@@ -83,12 +96,12 @@ li.toggle-topbar{
 /************** MESSAGE **************/
 #message{
 	width: 100%;
-	background: #9ea0bf;
+	background: #92ddee;
 }
 #message h3{
-	color: #5d5e9b;
+	color: #3f9eaf;
 	text-align: center;
-	text-shadow: 0px 2px 2px #c0badf;
+	text-shadow: 0px 2px 2px #a0f8ff;
 	padding: 23px 0;
 }
 
@@ -122,6 +135,24 @@ li.toggle-topbar{
 
 
 
+/*************************************/
+/************** Videos **************/
+
+.video {
+
+	height: 178px;
+}
+
+video{
+	width: 100%;
+	height: 100%;
+}
+
+audio {
+	width: 100%;
+	height: 100%;
+}
+
 
 /*************************************/
 /**************** TEAM ***************/
@@ -129,7 +160,7 @@ li.toggle-topbar{
 	background: #eee;
 	padding: 50px 0;
 }
-.get-in-touch{
+.get-in-touch{ 
 	padding-top: 50px;
 }
 
@@ -141,8 +172,8 @@ li.toggle-topbar{
 	height: 100%;
 	width: 100%;
 	background: #191919;
-	color: #616089;
-	border-top: 8px solid #3e307b;
+	color: #00a7b8;
+	border-top: 8px solid #00a7b8;
 	padding-top: 10px;
 	background-image: url("../images/pattern.png");
 }
@@ -150,12 +181,12 @@ li.toggle-topbar{
 	list-style: none;
 }
 #footer a, #footer h6, #footer p, #footer i{
-	color: #a3a1c7;
+	color: #00a7b8;
 	font-size: 12px;
 }
 
 footer .signature, footer .signature a{
-	color: #616089;
+	color: #00a7b8;
 }
 #footer img{
 	margin-top: 20px;
